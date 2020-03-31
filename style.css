@@ -1,0 +1,261 @@
+* {
+	margin: 0;
+	padding: 0; 
+}
+
+body {
+	background-color: black;
+
+}
+
+.clearfix::after {
+  content: "";
+  clear: both;
+  display: table;
+}
+
+/* header and nav */
+
+header {
+	position: relative;
+	z-index: 3;
+	height: 50px;
+}
+
+.nav_bar ul {
+	background: black;
+	padding-bottom: 10px;
+	text-align: center;
+	z-index: 3;
+}
+
+.nav_bar li {
+	text-decoration: none;
+	display: inline-block;
+	font-size: 1.4em;
+	padding: 0.3125em 1.25em 0em 1.25em; /* 5/16 */ /* 20/16 */ /* 0/16 */ /* 20/16 */
+	color: white;
+	z-index: 3;
+}
+
+.nav_bar a {
+	text-decoration: none;
+	color: white;
+}
+
+.nav-bar li:hover,
+.nav_bar a:hover {
+	text-decoration: underline;
+	cursor: pointer;
+	transform: scale(1.2, 1.2);
+}
+
+/* background image */
+
+.background{
+	position: relative;
+	z-index: 1;
+	display: block;
+}
+
+.background div {
+	background-image: url(img/panda_background1.jpg);
+	width: 100%;
+	height: 830px;
+	background-size: cover;
+	opacity: .8;
+	position: relative;
+	z-index: -1;
+	color: white;
+	margin-top: -100px;
+}
+
+.background h1 {
+	text-align: center;
+	font-size: 5em;
+	text-transform: uppercase;
+	word-spacing: 12px;
+	color: black;
+}
+
+/* main section */
+
+main {
+	background-image: url(img/black_to_white_gradient.jpg);
+	background-size: cover;
+	height: 3500px;
+}
+
+p {
+	font-size: 1.3em;
+	margin: 25px auto 35px auto;
+	line-height: 1.3em;
+	text-align: center;
+}
+/* About and apperance */
+
+#about h3 {
+	text-align: center;
+	font-size: 3em;
+	margin: 60px 0 25px 0;
+	color: white;
+	text-transform: uppercase;
+}
+
+#about p {
+	color: white;
+	width: 70%;
+	
+}
+
+/* Food and Water */
+
+#food {
+	text-align: center;
+	margin: 150px auto 150px auto;
+	position: relative;
+	width: 70%;
+}
+
+
+#food h3 {
+	text-align: center;
+	font-size: 3em;
+	margin: 40px auto;
+	color: white;
+	text-transform: uppercase;
+}
+
+#food p {
+	float: left;
+	display: inline-block;
+	color: white;
+	width: 50%;
+
+}
+
+#food img {
+	margin: 10px 60px 30px 60px;
+	float: left;
+	width: 400px;
+	height: 300px;
+	border-radius: 10px;
+}
+
+/* cubs */
+
+#cubs {
+	text-align: center;
+	margin: 100px auto 30px auto;
+	position: relative;
+	width: 70%;
+}
+
+#cubs h3 {
+	text-align: center;
+	font-size: 3em;
+	margin: 40px auto;
+	text-transform: uppercase;
+	color: white;
+}
+
+
+#cubs img {
+	margin: 10px 60px;
+	float: left;
+	width: 400px;
+	height: 300px;
+	border-radius: 10px;
+}
+
+#cubs p {
+	float: left;
+	display: inline-block;
+	color: white;
+	width: 50%;
+
+}
+
+/* panda and people */
+
+#people {
+	text-align: center;
+	margin: 150px auto 30px auto;
+	position: relative;
+	width: 70%;
+}
+
+#people h3 {
+	text-align: center;
+	font-size: 3em;
+	margin: 40px auto;
+	text-transform: uppercase;
+	color: #2e2e2d;
+}
+
+#people p {
+	color: #2e2e2d;
+	
+}
+
+.zoo {
+	position: relative;
+	display: flex;
+	flex-direction: row;
+	text-align: left;
+	margin: auto;
+	flex-grow: 33%;
+}
+
+.zoo p {
+	text-align: left;
+	margin-bottom: 10px;
+	font-weight: bold;
+	text-decoration: underline;
+}
+
+.zoo div {
+	
+	float: left;
+	flex: 1 1 auto;
+}
+
+.zoo li {
+	line-height: 1.2em;
+	padding: 10px;
+}
+
+/* endangered animal */
+
+#endangered {
+	text-align: center;
+	margin: 150px auto 30px auto;
+	position: relative;
+	width: 70%;
+}
+
+#endangered h3 {
+	text-align: center;
+	font-size: 3em;
+	margin: 60px 0 25px 0;
+	color: #2e2e2d;
+	text-transform: uppercase;
+}
+
+#endangered p {
+	color: #2e2e2d;	
+}
+
+#galery {
+	width: 70%;
+	margin: 150px auto 30px auto;
+	display: flex;
+	flex-direction: row;
+	flex-grow: 30%;
+}
+
+#galery img {
+	width: 30%;
+	height: auto;
+	flex: 1 1 auto;
+}
